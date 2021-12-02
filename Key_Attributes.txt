@@ -1,0 +1,8 @@
+Show_id - This is a unique ID for every Movie or TV show
+Type - Identifier to identify whether it is a  A Movie or TV Show
+Title -  This is the title of the Movie or the TV Show
+Director - Director of the Movie
+Cast - Actors involved in the movie or TV show
+Country - Country where the movie or TV show was produced
+Date_added - Date it was added on Netflix
+Release_year - Actual Release year of the movie or TV  show
