@@ -1,0 +1,10 @@
+streamlit
+pandas 
+altair
+numpy
+seaborn
+matplotlib.pyplot
+plotly.graph_objects
+collections
+plotly.express
+warnings
