@@ -1,8 +1,16 @@
-Show_id - This is a unique ID for every Movie or TV show
-Type - Identifier to identify whether it is a  A Movie or TV Show
-Title -  This is the title of the Movie or the TV Show
-Director - Director of the Movie
-Cast - Actors involved in the movie or TV show
-Country - Country where the movie or TV show was produced
-Date_added - Date it was added on Netflix
-Release_year - Actual Release year of the movie or TV  show
+show_id - This is a unique ID for every Movie or TV show
+type - Identifier to identify whether it is a  A Movie or TV Show
+title -  This is the title of the Movie or the TV Show
+cast - Actors involved in the movie or TV show
+country - Country where the movie or TV show was produced
+date_added - Date it was added on Netflix
+release_year - Actual Release year of the movie or TV  show
+rating - rating for shows or movies
+duration - time taken by movies or tv shows
+listed_in - genre of show 
+description - details of the movie
+month_added - month obtained from release year
+month_name_added -month_name_added segregatted from release year
+year_added - year segregatted from release year
+first_country - cleaned data from country column, contains name of single country only
+count - number to time the country occurs
