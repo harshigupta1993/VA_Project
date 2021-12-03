@@ -1,9 +1,4 @@
 streamlit
-pandas 
+pandas
 altair
-numpy
-seaborn
-matplotlib
 plotly
-collections
-warnings
