@@ -4,7 +4,5 @@ altair
 numpy
 seaborn
 matplotlib
-plotly
 collections
-plotly.express
 warnings
