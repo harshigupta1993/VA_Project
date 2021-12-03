@@ -10,3 +10,5 @@ This project's sources and data set come from kaggle.
 Below is the link for dataset.
 
 https://www.kaggle.com/shivamb/netflix-shows
+
+The above link provide us a raw data which was not cleaned. We cleaned the data and save it as netflix_titles.xlsx.
