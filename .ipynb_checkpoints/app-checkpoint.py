@@ -33,7 +33,7 @@ st.write(analysis)
 ###dashboard options for the sidebar
 #st.sidebar.title("netflix Dashboard")
 options = st.sidebar.selectbox("Select a Menu Option to display:", 
-                                   ('movie V/s TVshow', 'top 10 country with most movies'))
+                                   ('movie V/s TVshow', 'top country with most movies'))
     
 # displays headers fore each dashboard
 st.header(options)
@@ -50,7 +50,7 @@ if options == 'movie V/s TVshow':
     st.plotly_chart(fig)
     
 
-if options == 'top 10 country with most movies':
+if options == 'top country with most movies':
     print(df['first_country'].value_counts())
     dict = {'Country': df['first_country'].unique()[:85],
             'No of Movies': df['first_country'].value_counts()}
