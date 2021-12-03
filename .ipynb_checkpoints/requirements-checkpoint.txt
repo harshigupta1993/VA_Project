@@ -4,5 +4,6 @@ altair
 numpy
 seaborn
 matplotlib
+plotly
 collections
 warnings
