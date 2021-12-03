@@ -1,12 +1,8 @@
 import streamlit as st
 import pandas as pd
 import altair as alt
-import numpy as np
-import seaborn as sns
-import matplotlib.pyplot as plt
 import plotly.graph_objects as go
 import collections
-from matplotlib import gridspec
 import plotly.express as px
 
 
@@ -56,7 +52,6 @@ if options == 'movie V/s TVshow':
 
 if options == 'top 10 country with most movies':
     print(df['first_country'].value_counts())
-    print()
     dict = {'Country': df['first_country'].unique()[:85],
             'No of Movies': df['first_country'].value_counts()}
     
